@@ -25,7 +25,7 @@ NYU Tandon 录取背景报告 2020Fall
 
 首先来看 150 位被调查者的学校分布：
 
-![school](https://cdn.lukerr.com/nyu/school.png)
+![school](./school.png)
 
 除了上图所示分布，分析数据还可得出以下几点结论：
 
@@ -57,7 +57,7 @@ NYU Tandon 录取背景报告 2020Fall
 
 首先来看被调查者的 GPA 的分布，X 轴为 GPA 区间，Y 轴为人数：
 
-![gpa](https://cdn.lukerr.com/nyu/gpa.png)
+![gpa](./gpa.png)
 
 可得出参与调查的同学：
 
@@ -69,7 +69,7 @@ NYU Tandon 录取背景报告 2020Fall
 
 在参与调查的同学中，用托福进行申请的同学有 114 位，成绩分布如下：
 
-![toefl](https://cdn.lukerr.com/nyu/toefl.png)
+![toefl](./toefl.png)
 
 可得出参与调查的同学：
 
@@ -92,7 +92,7 @@ Tandon官网要求雅思最低 7.0 分，与有限的样本数据相符。
 
 在参与调查的同学中，申请提交了 GRE 成绩的有 135 位，成绩分布如下：
 
-![gre](https://cdn.lukerr.com/nyu/gre.png)
+![gre](./gre.png)
 
 可得出参与调查的同学：
 
@@ -102,7 +102,7 @@ Tandon官网要求雅思最低 7.0 分，与有限的样本数据相符。
 
 这 135 位同学 GRE AW 分数分布如下：
 
-![gre_aw](https://cdn.lukerr.com/nyu/gre_aw.png)
+![gre_aw](./gre_aw.png)
 
 - GRE AW 平均数 3.2
 - GRE AW 中位数 3.0
@@ -114,7 +114,7 @@ Tandon官网要求雅思最低 7.0 分，与有限的样本数据相符。
 
 在被调查者中，男女性别分布如下图所示：
 
-![gender](https://cdn.lukerr.com/nyu/gender.png)
+![gender](./gender.png)
 
 可以近似得出整个 Tandon 的男女比例为 **2:1**
 
@@ -137,7 +137,7 @@ Tandon官网要求雅思最低 7.0 分，与有限的样本数据相符。
 
 我们以 Toefl 为自变量，GRE 为因变量，可以做出以下回归图：
 
-![toefl_gre](https://cdn.lukerr.com/nyu/toefl_gre.png)
+![toefl_gre](./toefl_gre.png)
 
 **可以发现 G 和 T 之间存在正相关性**(R²=0.321)，对于该现象有两种解释：
 
@@ -149,11 +149,11 @@ Tandon官网要求雅思最低 7.0 分，与有限的样本数据相符。
 
 1. GPA 为自变量（x轴），Toefl 为因变量（y轴）做回归图：
 
-![gpa_toefl](https://cdn.lukerr.com/nyu/gpa_toefl.png)
+![gpa_toefl](./gpa_toefl.png)
 
 2. GPA 为自变量（x轴），GRE 为因变量（y轴）做回归图：
 
-![gpa_gre](https://cdn.lukerr.com/nyu/gpa_gre.png)
+![gpa_gre](./gpa_gre.png)
 
 
 通过以上回归，我们可以得出以下结论：
@@ -204,7 +204,7 @@ Tandon 的录取三维平均数和中位数恰好都略高于传说中 3.5 + 100
 
 另外，被调查者的专业分布如下：
 
-![major](https://cdn.lukerr.com/nyu/major.png)
+![major](./major.png)
 
 可以发现 CS+ECE 被调查者占据了差不多四分之三。
 
@@ -212,7 +212,7 @@ Tandon 的录取三维平均数和中位数恰好都略高于传说中 3.5 + 100
 
 共有 22 位参与调查的同学被录取专业是 MSCS，分布如下：
 
-![school_mscs](https://cdn.lukerr.com/nyu/school_mscs.png)
+![school_mscs](./school_mscs.png)
 
 以上分布图同时包含了本科学校与三维信息，从有限的样本来看，不同的本科出身有不同的 bar，出现了比较明显的来自好学校的录取 bar 更低的现象。
 
@@ -267,7 +267,7 @@ Tandon 的录取三维平均数和中位数恰好都略高于传说中 3.5 + 100
 
 有 45 位被调查者申请 MSCS 专业后被 Rej、调济为 CE 专业，分布如下：
 
-![school_ce](https://cdn.lukerr.com/nyu/school_ce.png)
+![school_ce](./school_ce.png)
 
 从学校分布来看，容易发现申 CS 后被调济 CE 的人：
 
@@ -277,7 +277,7 @@ Tandon 的录取三维平均数和中位数恰好都略高于传说中 3.5 + 100
 
 45 位同学的 GPA 分布如下：
 
-![gpa_ce](https://cdn.lukerr.com/nyu/gpa_ce.png)
+![gpa_ce](./gpa_ce.png)
 
 - GPA 平均数为 3.51
 - GPA 中位数为 3.52
@@ -285,7 +285,7 @@ Tandon 的录取三维平均数和中位数恰好都略高于传说中 3.5 + 100
 
 在 45 位同学中，有 40 位提交了托福，分布如下：
 
-![toefl_ce](https://cdn.lukerr.com/nyu/toefl_ce.png)
+![toefl_ce](./toefl_ce.png)
 
 - 托福平均数为 99.56
 - 托福中位数为 100
@@ -295,7 +295,7 @@ Tandon 的录取三维平均数和中位数恰好都略高于传说中 3.5 + 100
 
 45 位同学的 GRE 分布如下：
 
-![gre_ce](https://cdn.lukerr.com/nyu/gre_ce.png)
+![gre_ce](./gre_ce.png)
 
 - GRE 最低 312，最高 330
 - GRE 平均数为 320.3
@@ -336,7 +336,7 @@ MFE 是 Tandon 的王牌专业，全美 Top 级别，从少量的样本来看出
 
 ECE 系专业（CE/EE/调济 CE）共有 90 个样本，学校分布如下：
 
-![school_ece](https://cdn.lukerr.com/nyu/school_ece.png)
+![school_ece](./school_ece.png)
 
 可以发现：
 
@@ -345,7 +345,7 @@ ECE 系专业（CE/EE/调济 CE）共有 90 个样本，学校分布如下：
 
 GPA 的分布如下：
 
-![gpa_ece](https://cdn.lukerr.com/nyu/gpa_ece.png)
+![gpa_ece](./gpa_ece.png)
 
 - GPA 平均数 3.48
 - GPA 中位数 3.5
@@ -353,7 +353,7 @@ GPA 的分布如下：
 
 托福的分布如下：
 
-![toefl_ece](https://cdn.lukerr.com/nyu/toefl_ece.png)
+![toefl_ece](./toefl_ece.png)
 
 - 托福 平均数 99.6
 - 托福 中位数 99
@@ -361,7 +361,7 @@ GPA 的分布如下：
 
 GRE的分布如下：
 
-![gre_ece](https://cdn.lukerr.com/nyu/gre_ece.png)
+![gre_ece](./gre_ece.png)
 
 - GRE 平均数 320.7
 - GRE 中位数 321
@@ -379,7 +379,7 @@ GRE的分布如下：
 
 除 CS，MFE，ECE 外，其它专业共有 28 个样本，分布如下：
 
-![major_other](https://cdn.lukerr.com/nyu/major_other.png)
+![major_other](./major_other.png)
 
 这 30 位同学：
 
@@ -467,7 +467,7 @@ ME: Mechanic Engineering
 
 首先观察所有 Master 项目被调查者，可以得到以下奖学金分布：
 
-![scholarship](https://cdn.lukerr.com/nyu/scholarship.png)
+![scholarship](./scholarship.png)
 
 通过分析所有被调查者的奖学金数据，我们可以知道：
 
@@ -513,11 +513,11 @@ ME: Mechanic Engineering
 
 另外，我们做出回归图，可以发现 GPA 每高 0.1，期望上奖学金能多 770 刀：
 
-![scholarship_gpa](https://cdn.lukerr.com/nyu/scholarship_gpa.png)
+![scholarship_gpa](./scholarship_gpa.png)
 
 **但是，当拿到奖后 GPA 对奖学金几乎就没有影响了：**
 
-![scholarship_gpa_own](https://cdn.lukerr.com/nyu/scholarship_gpa_own.png)
+![scholarship_gpa_own](./scholarship_gpa_own.png)
 
 
 因此我们可以得出结论：**GPA 决定了你是否能拿奖，但是不影响奖学金数额**
@@ -528,11 +528,11 @@ ME: Mechanic Engineering
 
 首先做出 TOEFL 与奖学金的回归图：
 
-![toefl_aid](https://cdn.lukerr.com/nyu/toefl_aid.png)
+![toefl_aid](./toefl_aid.png)
 
 然后做出 GRE 与奖学金的回归图：
 
-![gre_aid](https://cdn.lukerr.com/nyu/gre_aid.png)
+![gre_aid](./gre_aid.png)
 
 根据以上回归图可知：
 
